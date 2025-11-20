@@ -1,0 +1,14 @@
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hole-toy"
+version = "0.1.0"
+description = "Toy HOLE-style pipeline for black-hole information thresholds."
+requires-python = ">=3.9"
+dependencies = [
+    "numpy",
+    "matplotlib",
+]

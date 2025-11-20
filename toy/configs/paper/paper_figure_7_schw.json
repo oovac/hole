@@ -1,0 +1,18 @@
+{
+  "description": "Paper Fig. 7 (toy): Schwarzschild-like baseline used for illustrating Page and HP thresholds.",
+  "evap": {
+    "M0": 1.0,
+    "k_hawk": 0.001,
+    "model": "Schw_baseline_FminFmax_toy"
+  },
+  "chaos": {
+    "alpha_scr": 1.0
+  },
+  "sgen": {
+    "kappa": 0.0
+  },
+  "visibility": {
+    "type": "constant",
+    "chi0": 0.8
+  }
+}

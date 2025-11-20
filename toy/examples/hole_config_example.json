@@ -1,0 +1,18 @@
+{
+  "description": "Toy Schwarzschild-like baseline with constant visibility chi0=0.8.",
+  "evap": {
+    "M0": 1.0,
+    "k_hawk": 0.001,
+    "model": "4D_schw"
+  },
+  "chaos": {
+    "alpha_scr": 1.0
+  },
+  "sgen": {
+    "kappa": 0.0
+  },
+  "visibility": {
+    "type": "constant",
+    "chi0": 0.8
+  }
+}

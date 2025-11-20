@@ -1,0 +1,20 @@
+{
+  "description": "Paper Fig. 9 (toy): Kerr-like scenario with faster evaporation and a step-like visibility profile.",
+  "evap": {
+    "M0": 1.0,
+    "k_hawk": 0.0015,
+    "model": "Kerr_a0.9_toy"
+  },
+  "chaos": {
+    "alpha_scr": 1.0
+  },
+  "sgen": {
+    "kappa": 0.0
+  },
+  "visibility": {
+    "type": "step",
+    "chi_hi": 0.9,
+    "chi_lo": 0.6,
+    "M_step": 0.7
+  }
+}
